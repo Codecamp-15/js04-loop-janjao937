@@ -8,7 +8,7 @@ for(let i = 1;i<=range;i++)
     if(i===1) continue;
 
     isPrime = true;
-    for(let j = 2;j<= Math.sqrt(i);j++)//Check Root
+    for(let j = 2;j< Math.sqrt(i);j++)//Check Root
     {
         if(i%j === 0)
         {
